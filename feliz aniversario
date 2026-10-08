@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Uma carta para a Catarina</title>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#efe6d6;--paper:#fffdf6;--ink:#2b2a4a;--line:#e3dcc8;--accent:#b5533c;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1d1b22;--paper:#2a2730;--ink:#f1ead9;--line:#3a3642;--accent:#e58a72}}
+:root[data-theme="dark"]{--bg:#1d1b22;--paper:#2a2730;--ink:#f1ead9;--line:#3a3642;--accent:#e58a72}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'Caveat','Segoe Script','Bradley Hand',cursive;font-size:26px;line-height:1.6;display:flex;justify-content:center;padding:28px 16px}
+.paper{max-width:560px;width:100%;background:var(--paper);padding:36px 32px 40px;border-radius:4px;box-shadow:0 8px 30px rgba(0,0,0,.18);
+background-image:repeating-linear-gradient(transparent,transparent 41px,var(--line) 42px);transform:rotate(-.6deg)}
+h1{font-size:38px;margin:0 0 14px;color:var(--accent);font-weight:600}
+p{margin:0 0 16px}
+.sign{margin-top:28px}
+.emoji{font-size:30px}
+</style>
+</head>
+<body>
+<main class="paper">
+<h1>Meu bem,</h1>
+<p>Feliz aniversário! <span class="emoji">🎂</span></p>
+<p>Outro dia você me contou que nunca recebeu uma carta escrita à mão, e eu fiquei pensando nisso.</p>
+<p>Eu queria muito ter te entregado uma de verdade, de papel, com letra torta e tudo. Mas ainda não deu tempo, o seu aniversário chegou rápido demais.</p>
+<p>Então esta é a minha forma de te entregar algo agora. Ela não substitui a de papel, que continua devida e vai chegar, prometo.</p>
+<p>Que o seu novo ano seja leve, cheio de coisas boas e de gente que te faz rir. E que eu possa continuar te conhecendo melhor ao longo dele.</p>
+<p>Parabéns!</p>
+<p class="sign">Com carinho,<br>alguém que está gostando de te conhecer ✨</p>
+</main>
+</body>
+</html>
